@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title> Advanced Search</title>
+    
+    </head>
+    <link rel="stylesheet" href="style.css">
+    <style>
+         h1{
+            color: #d93025;
+            font-size: 20px;
+            margin: 25px 35px;
+            font-weight: inherit;
+            font-style: inherit;
+        }
+
+        h2{
+            margin: 25px 35px;
+            font-size: 16px;
+            font-weight: inherit;
+            font-style: inherit;
+        }
+
+    </style>
+
+    <body>
+        <div class="options" style="background-color: #EFEFEF; padding:20px;">
+            <a href="index.html">Google Search</a>
+        </div>
+
+        <h1>Advanced Search</h1>
+        
+        <h2>Find pages with...</h2>
+
+        <div id="AdvSearch">
+            <form action="https://www.google.com/search">
+
+                all these words:
+                <input class="ASbar" type="text" name="as_q">
+                
+                <pre> </pre>
+               
+                this exact word or phrase:
+                <input class="ASbar" type="text" name="as_epq">
+                
+                <pre> </pre>
+                
+                any of these words:
+                <input class="ASbar" type="text" name="as_oq">
+
+                <pre> </pre>
+
+                
+                none of these words:
+                <input class="ASbar" type="text" name="as_eq">
+                
+                <pre></pre>
+                <input style="background-color:#338FFF; color: white;
+                 font-family: arial,sans-serif; font-size: 14px; margin-left: 50%;"
+                 type="submit" value="Advanced Search">
+
+            </form>
+        </div>
+        </body>
+    </body>
+</html>
